@@ -12,15 +12,14 @@ const Footer = () => {
 
                         <div className="col-sm-12 col-md-6 col-lg-4">
                             <div className="footer-section">
+                                <h4 className='footer-headings' >Contact Us</h4>
+                                <h6 className='footer-subheading'>Head Office</h6>
+                                <p style={{ color: 'var(--text-color)', lineHeight: "2" }}><a href="" target='blank' className='footer-subheading' >Wood street Walthamstow, east London.</a></p>
 
-                                <h4 style={{ color: 'var(--text-color)', fontSize: "20px", marginBlock: "15px" }} >Contact Us</h4>
-                                <h6 style={{ color: 'var(--text-color)', lineHeight: "2", margin: "0" }} >Head Office</h6>
-                                <p style={{ color: 'var(--text-color)', lineHeight: "2" }}><a href="https://www.google.com/maps/search/?api=1&query=Wood+street+Walthamstow+east+London" target='blank' style={{ color: 'var(--text-color)', lineHeight: "2", margin: "0" }} >Wood street Walthamstow, east London.</a></p>
-
-                                <h6 style={{ color: 'var(--text-color)', lineHeight: "2", margin: "0" }}>Phone Number</h6>
-                                <p style={{ margin: "" }}><a href="tel:+07777966289" style={{ color: 'var(--text-color)', lineHeight: "2", margin: "0" }} >T: 07777 966 289</a></p>
-                                <h6 style={{ color: 'var(--text-color)', lineHeight: "2", margin: "0" }} >Email Address</h6>
-                                <p style={{ margin: "" }}><a href="mailto:cavecounselling@outlook.com" style={{ color: 'var(--text-color)', lineHeight: "2", margin: "0" }} >cavecounselling@outlook.com</a></p>
+                                <h6 className='footer-subheading'>Phone Number</h6>
+                                <p style={{ margin: "" }}><a href="tel:+07777966289" className='footer-subheading' >T: 07777 966 289</a></p>
+                                <h6 className='footer-subheading' >Email Address</h6>
+                                <p style={{ margin: "" }}><a href="mailto:cavecounselling@outlook.com" className='footer-subheading' >cavecounselling@outlook.com</a></p>
                             </div>
                         </div>
 
@@ -37,19 +36,19 @@ const Footer = () => {
 
                         <div className="col-sm-12 col-md-6 col-lg-2">
                             <div className="footer-section">
-                                <h4 style={{ color: 'var(--text-color)', fontSize: "20px", marginBlock: "15px" }}>Menu</h4>
+                                <h4 className='footer-heading'>Menu</h4>
                                 <ul className='list' style={{ listStyle: "none", padding: "0" }}>
-                                    <li style={{ color: 'var(--text-color)', lineHeight: "2" }} ><a style={{ textDecoration: "none", color: "var(--text-color)" }} href="/#home"> Home </a></li>
-                                    <li style={{ color: 'var(--text-color)', lineHeight: "2" }} ><a style={{ textDecoration: "none", color: "var(--text-color)" }} href="/#services">My Services</a></li>
-                                    <li style={{ color: 'var(--text-color)', lineHeight: "2" }} ><a style={{ textDecoration: "none", color: "var(--text-color)" }} href="/#about-me">About Us</a></li>
-                                    <li style={{ color: 'var(--text-color)', lineHeight: "2" }} ><a style={{ textDecoration: "none", color: "var(--text-color)" }} href="/#faq">FAQ</a></li>
-                                    <li style={{ color: 'var(--text-color)', lineHeight: "2" }} ><a style={{ textDecoration: "none", color: "var(--text-color)" }} href="/#contact-me">Contact Me</a></li>
+                                    <li><a className='footer-data' href="/#home"> Home </a></li>
+                                    <li><a className='footer-data' href="/#services">My Services</a></li>
+                                    <li><a className='footer-data' href="/#about-me">About Us</a></li>
+                                    <li><a className='footer-data' href="/#faq">FAQ</a></li>
+                                    <li><a className='footer-data' href="/#contact-me">Contact Me</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col-sm-12 col-md-6 col-lg-2">
                             <div className="footer-section">
-                                <h4 style={{ color: 'var(--text-color)', fontSize: "20px", marginBlock: "15px" }}>Follow Us</h4>
+                                <h4 className='footer-heading'>Follow Us</h4>
                                 <div className="footer-icons">
                                     <a href="https://www.instagram.com/cave_counselling/?igsh=d2wyZHltcXZwcGZu#" className="icon linkedin"> <i><FaInstagram size={30} /></i></a>
                                     <a href="https://www.linkedin.com/in/shama-iqbal-68682430a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="icon linkedin"> <i><FaLinkedin size={30} /></i></a>

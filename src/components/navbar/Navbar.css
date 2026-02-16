@@ -1,11 +1,9 @@
 .navbar {
-    background-color: white !important;
+    background-color: var(--white) !important;
     color: rgb(0, 0, 0);
     z-index: 1000;
     transition: background-color 0.3s;
     padding-block: 12px;
-    /* position: fixed;
-    width: 100%; */
 }
 
 .nav-upper-text {
@@ -35,7 +33,7 @@
 
 .navbar-nav .nav-item .nav-link {
     font-weight: normal;
-    color: var(--second-bg-color) !important;
+    color: var(--text-color) !important;
 }
 
 .navbar-toggler {
@@ -45,7 +43,7 @@
 .sub-header-main {
     padding-bottom: 10px;
     padding-top: 110px;
-    background-color: white;
+    background-color: var(--white);
 }
 
 .nav-header-text {
@@ -53,7 +51,7 @@
     font-size: 15px;
     font-weight: 700;
     text-align: start;
-    color: black;
+    color: var(--black);
 }
 
 
@@ -153,7 +151,6 @@
     }
 
     .navbar-nav .nav-item .nav-link {
-        /* text-align: center; */
         display: flex;
         justify-content: center;
     }

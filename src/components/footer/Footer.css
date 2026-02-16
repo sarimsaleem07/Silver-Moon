@@ -1,45 +1,31 @@
 .footer {
-    background: black;
-    color: white;
+    background: var(--black);
+    color: var(--white);
     padding-block: 50px;
 
 }
 
-.footerImg {
-    margin: 10px 0px 20px 0px;
-    width: 115px;
+.footer-headings {
+    color: var(--white);
+    font-size: 24px;
 }
 
-.ant-typography {
-    margin: 3px 0;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+.footer-subheading {
+    color: var(--white);
     line-height: 2;
+    margin: 0;
+    /* text-decoration: none; */
 }
 
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 39px;
-    padding-bottom: 39px;
-}
-
-.footer-links {
-    display: flex;
-    gap: 20px;
-}
-
-.footer-links a {
+.footer-data {
+    color: var(--white);
+    line-height: 2;
+    margin: 0;
     text-decoration: none;
-    color: white;
-    letter-spacing: 1px;
-    padding: 0 16px;
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: uppercase;
-
 }
+
+.footer-section {}
+
 
 .footer-icons {
     display: flex;
@@ -49,7 +35,7 @@
 
 .footer-icons .icon {
     text-decoration: none;
-    color: white;
+    color: var(--white);
     /* padding: 0 16px; */
     font-size: 30px;
 }
@@ -71,7 +57,6 @@
 }
 
 .footer-badge-parent img {
-    /* width: auto; */
     width: 90px;
     object-fit: contain;
     transition: transform 0.3s ease-in-out;
@@ -158,7 +143,7 @@
 
 .footer-text p {
     margin: 0px;
-    color: white;
+    color: var(--white);
 }
 
 .link-footer {

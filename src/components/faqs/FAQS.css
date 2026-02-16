@@ -12,7 +12,7 @@
     padding: 16px 0px;
     font-weight: 400;
     font-size: 17px;
-    color: var(--second-bg-color);
+    color: var(--text-color);
     align-items: center;
 }
 
@@ -20,7 +20,7 @@
     padding: 0 0px 16px 0px;
     display: block;
     font-size: 15px;
-    color: var(--second-bg-color);
+    color: var(--black);
 }
 
 .faq-heading {
