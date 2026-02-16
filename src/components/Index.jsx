@@ -5,6 +5,7 @@ const Footer = lazy(() => import("./footer/Footer"))
 const About = lazy(() => import("./about/About"))
 const FAQ = lazy(() => import("./faqs/FAQS"))
 const Contact = lazy(() => import("./contactUs/ContactUs"))
+const Testimonials = lazy(() => import("./testimonials/Testimonials"))
 
 export {
     Navbar,
@@ -12,5 +13,6 @@ export {
     About,
     FAQ,
     Contact,
+    Testimonials,
     Footer,
 }
