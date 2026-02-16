@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #1E3A8A;
+    /* Deep Blue for main footer bg */
+    --secondary-color: #60A5FA;
+    /* Light Blue accent */
+    --text-color: #F3F4F6;
+    /* Soft white / off-white for text */
+    --link-color: #93C5FD;
+    /* Lighter link hover / highlight */
+    --hover-color: #BFDBFE;
+    /* Hover for links and icons */
+    --second-bg-color: #111827;
+    /* Darker footer sub-bg for contrast */
+}
