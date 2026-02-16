@@ -2,6 +2,7 @@
     --primary-color: #78A0C8;
     --secondary-color: #8CB4C8;
     --text-color: #212529;
+    --heading-color: #1A2B3C;
     --white: white;
     --black: black;
     --btn-color: linear-gradient(to bottom right, #8CB4C8, #78A0C8);
@@ -17,12 +18,10 @@
 
 .main-heading {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 10px;
-    color: var(--text-color);
-    /* dark heading color */
+    color: var(--heading-color);
     line-height: 1.5;
-    /* optional, center the heading */
 }
 
 .sub-heading {
@@ -32,14 +31,12 @@
     color: var(--primary-color);
 }
 
+
 .description {
-    font-size: 16px;
-    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.8;
     color: var(--text-color);
-    line-height: 1.5;
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto 20px auto;
 }
 
 .all-btn {

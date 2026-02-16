@@ -3,12 +3,46 @@ import './FAQS.css';
 
 const FAQ = () => {
     const faqData = [
-        { id: 1, question: 'What happens during counselling / therapy?', answer: 'Counselling, also known as therapy, is a form of talking therapy where I provide a safe and confidential space for you to explore your feelings and challenges. Building a warm, trusting relationship between therapist and client is key to the healing process, and I am here to support you every step of the way. You are always in control of what we discuss, as only you know how it feels to be you. My role is to support and guide you in a way that feels right for you.' },
-        { id: 2, question: 'How long does each session last and how often?', answer: 'Counselling sessions last 50 minutes. It is helpful to have weekly sessions to get the most benefit and positive impact on your wellbeing.' },
-        { id: 3, question: 'How many sessions do I need?', answer: 'Therapy can be long term, or it can be short term, each person is different, and the number of sessions depends on you. During the initial assessment we will discuss your requirements and work accordingly.' },
-        { id: 4, question: 'How much do you charge and how do I pay?', answer: 'Both adult and child/young person counselling are charged at £60 per session. <br /> Please note I do offer limited spaces for low-cost counselling (students/low income), so do feel free to reach out to discuss this with me. <br /> Payments must be made prior to each session via bank transfer. All payment information is written clearly on the contract.' },
-        { id: 5, question: 'Can I do online sessions?', answer: 'Yes, I offer online sessions as well as in-person session based in Walthamstow, East London.' },
-        { id: 6, question: 'What is your availability?', answer: 'In person: I currently see clients on Mondays, Tuesdays and Thursdays 12-4pm (Walthamstow, East London). <br /> Online sessions: Please contact me to discuss' },
+        {
+            id: 1,
+            question: 'How does the debt collection process work?',
+            answer: 'Our debt collection process begins with a thorough review of your overdue accounts. We then initiate professional communication with your debtors through structured letters, calls, and emails. Our approach is always compliant with UAE banking regulations while maintaining your business reputation. We keep you updated throughout the process and only escalate when necessary.'
+        },
+        {
+            id: 2,
+            question: 'How long does the debt recovery process take?',
+            answer: 'The timeline varies depending on the age of the debt, amount owed, and debtor responsiveness. Typically, our initial contact shows results within 7-14 days. Complex cases may take 30-90 days. We work efficiently while maintaining professionalism throughout the process.'
+        },
+        {
+            id: 3,
+            question: 'What is your commission structure?',
+            answer: 'We operate on a simple 20% commission model — No recovery, No fee. This means you only pay when we successfully recover your money. There are no hidden charges or upfront fees. All terms are clearly outlined in our agreement before we begin.'
+        },
+        {
+            id: 4,
+            question: 'Do you handle international debt collection?',
+            answer: 'Yes, we handle both local UAE and international debt collection. Our agents speak English, Arabic & Urdu, allowing us to communicate effectively with debtors worldwide. We understand cross-border collection complexities and work within international regulations.'
+        },
+        {
+            id: 5,
+            question: 'Is your debt collection process compliant with UAE laws?',
+            answer: 'Absolutely. We strictly follow UAE Central Bank regulations and local collection laws. Our British-owned management ensures UK-standard professionalism while maintaining full compliance with UAE legal requirements. We prioritize ethical collection practices.'
+        },
+        {
+            id: 6,
+            question: 'How do you protect our client relationships?',
+            answer: 'We understand the importance of your business relationships. Our approach is professional, respectful, and confidential. We use tactful communication strategies that aim to recover your money while preserving your reputation and potentially maintaining positive client relationships where possible.'
+        },
+        {
+            id: 7,
+            question: 'What types of debts do you collect?',
+            answer: 'We handle various types of commercial and consumer debts including unpaid invoices, overdue accounts, B2B collections, and retail debt. Our team has experience across multiple industries and can adapt to your specific business needs.'
+        },
+        {
+            id: 8,
+            question: 'How do I start the debt collection process?',
+            answer: 'Getting started is simple. Contact us via phone at 05 03346768 or email at info@silvermoon.ae. We\'ll discuss your case, provide initial advice, and if you decide to proceed, we\'ll send you a clear agreement outlining our terms. Once signed, we begin work immediately.'
+        }
     ];
 
     const [activeIndex, setActiveIndex] = useState(null);

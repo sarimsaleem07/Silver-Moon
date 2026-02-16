@@ -14,18 +14,18 @@ const Footer = () => {
                             <div className="footer-section">
                                 <h4 className='footer-headings' >Contact Us</h4>
                                 <h6 className='footer-subheading'>Head Office</h6>
-                                <p style={{ color: 'var(--text-color)', lineHeight: "2" }}><a href="" target='blank' className='footer-subheading' >Wood street Walthamstow, east London.</a></p>
+                                <p><a href="https://www.google.com/maps?q=24.998091,55.170963" target='blank' className='footer-subheading'>Arjumand Building Suite 493 Green Community Village - Dubai Investment Park First - Dubai</a></p>
 
                                 <h6 className='footer-subheading'>Phone Number</h6>
-                                <p style={{ margin: "" }}><a href="tel:+07777966289" className='footer-subheading' >T: 07777 966 289</a></p>
+                                <p><a href="tel:+07777966289" className='footer-subheading' >T: 9999 999 999</a></p>
                                 <h6 className='footer-subheading' >Email Address</h6>
-                                <p style={{ margin: "" }}><a href="mailto:cavecounselling@outlook.com" className='footer-subheading' >cavecounselling@outlook.com</a></p>
+                                <p><a href="mailto:Info@silvermoondebtcollection.com" className='footer-subheading'>Info@silvermoondebtcollection.com</a></p>
                             </div>
                         </div>
 
                         <div className="col-sm-12 col-md-6 col-lg-4">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40803.235262064105!2d-0.26674749999999997!3d51.5287393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2s!4v1698793256143!5m2!1sen!2s" width="85%"
+                                src="https://www.google.com/maps?q=24.998091,55.170963&hl=es;z=14&output=embed" width="85%"
                                 height="270"
                                 style={{ border: 0, marginBlock: "15px" }}
                                 allowFullScreen

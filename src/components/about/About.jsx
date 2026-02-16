@@ -7,7 +7,7 @@ const About = () => {
     const navigate = useNavigate()
 
     return (
-        <div className="about section-padding">
+        <div className="about section-padding" id='about'>
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12 col-md-6 col-lg-6">
@@ -19,7 +19,7 @@ const About = () => {
                         <div className="about-data-parent">
                             <h3 className='sub-heading'>About</h3>
                             <h1 className="main-heading">Looking for the best Debt Collection Services in Dubai? Your search ends here.</h1>
-                            <p className="about-description">
+                            <p className="description">
                                 We provide professional debt collection services for businesses of all sizes.
                                 Our team works closely with you to recover outstanding payments efficiently and fairly.
                                 Trust us to handle your receivables with care, professionalism, and integrity.,

@@ -1,5 +1,5 @@
 .faq-container {
-    max-width: 600px;
+    max-width: 850px;
     margin: 0 auto;
 }
 
@@ -11,16 +11,18 @@
 .question {
     padding: 16px 0px;
     font-weight: 400;
-    font-size: 17px;
-    color: var(--text-color);
+    font-size: 18px;
+    color: var(--heading-color);
     align-items: center;
 }
 
 .answer {
     padding: 0 0px 16px 0px;
     display: block;
-    font-size: 15px;
-    color: var(--black);
+    font-size: 16px;
+    color: var(--heading-color);
+    padding-right: 40px;
+    line-height: 1.8;
 }
 
 .faq-heading {
@@ -81,11 +83,6 @@
 .page-shade-faq img {
     width: 100px;
     height: auto;
-}
-
-
-.answer {
-    padding-right: 40px;
 }
 
 @media (max-width: 767px) {

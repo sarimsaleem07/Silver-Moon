@@ -13,7 +13,7 @@ function Header() {
 
     return (
         <div>
-            <nav className="navbar navbar-expand-lg" style={{ display: "flex", flexDirection: "column" }}>
+            <nav className="navbar navbar-expand-lg" id='home' style={{ display: "flex", flexDirection: "column" }}>
 
                 <div className="container" style={{ paddingInline: "0px" }}>
                     <div className="navbar-logo">
@@ -30,16 +30,19 @@ function Header() {
                                 <HashLink className="nav-link" smooth to="/#home">Home</HashLink>
                             </li>
                             <li className="nav-item">
-                                <HashLink className="nav-link" smooth to="/#services">My Services</HashLink>
+                                <HashLink className="nav-link" smooth to="/#about">About</HashLink>
                             </li>
                             <li className="nav-item">
-                                <HashLink className="nav-link" smooth to="/#about-me">About Me</HashLink>
+                                <HashLink className="nav-link" smooth to="/#whoAreWe">Who Are We</HashLink>
+                            </li>
+                            <li className="nav-item">
+                                <HashLink className="nav-link" smooth to="/#services">Services</HashLink>
                             </li>
                             <li className="nav-item">
                                 <HashLink className="nav-link" smooth to="/#faq">FAQ</HashLink>
                             </li>
                             <li className="nav-item">
-                                <HashLink className="nav-link" smooth to="/#contact-me">Contact Me</HashLink>
+                                <HashLink className="nav-link" smooth to="/#contact-me">Contact</HashLink>
                             </li>
                         </ul>
                         {/* <div className="navbar-icons">

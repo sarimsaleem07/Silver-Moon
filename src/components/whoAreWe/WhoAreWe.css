@@ -1,0 +1,164 @@
+.whoAreWe {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.whoAreWe-data-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.whoAreWe-image-parent {
+    width: 90%;
+}
+
+.whoAreWe-image-parent img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.whoAreWe-description {
+    padding-left: 0px;
+    padding-top: 20px;
+}
+
+.whoAreWe-description li {
+    margin-bottom: 15px;
+    list-style: none;
+    transition: transform 0.3s ease;
+    font-size: 18px;
+    line-height: 1.8;
+    padding-left: 30px;
+    color: var(--text-color);
+}
+
+.whoAreWe-description li:hover {
+    transform: translateX(5px);
+}
+
+.whoAreWe-description li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+@media (max-width:556px) {
+    .whoAreWe-heading {
+        font-size: 20px;
+    }
+
+    .whoAreWe-description {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:557px) and (max-width:991px) {
+    .whoAreWe-heading {
+        font-size: 28px;
+    }
+}
+
+/* //////////////////////////////////// */
+/* Image Styling */
+.whoAreWe-image-parent {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(26, 43, 60, 0.15);
+    transition: all 0.3s ease;
+}
+
+.whoAreWe-image-parent:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 30px 50px rgba(212, 175, 55, 0.2);
+}
+
+.whoAreWe-image-parent img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.whoAreWe-image-parent:hover img {
+    transform: scale(1.05);
+}
+
+/* Add overlay with brand colors */
+.whoAreWe-image-parent::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(26, 43, 60, 0.1) 0%, rgba(212, 175, 55, 0.1) 100%);
+    pointer-events: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .whoAreWe {
+        padding: 50px 0;
+    }
+
+    .main-heading {
+        font-size: 28px;
+    }
+
+    .whoAreWe-data-parent {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .whoAreWe-description li {
+        font-size: 16px;
+    }
+}
+
+/* Animation for entrance */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.whoAreWe-data-parent {
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+.whoAreWe-image-parent {
+    animation: fadeInUp 0.8s ease 0.2s forwards;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+/* Add decorative elements */
+.whoAreWe {
+    position: relative;
+    overflow: hidden;
+}
+
+.whoAreWe::before {
+    content: '☽';
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 150px;
+    color: #1A2B3C;
+    opacity: 0.03;
+    font-family: Arial, sans-serif;
+    transform: rotate(15deg);
+    pointer-events: none;
+}
