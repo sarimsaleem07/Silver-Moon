@@ -87,10 +87,6 @@
 
 @media (max-width: 767px) {
 
-    .section-padding {
-        padding-block: 40px;
-    }
-
     .faq-heading h1 {
         font-size: 23px;
     }
