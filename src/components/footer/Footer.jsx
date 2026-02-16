@@ -63,7 +63,7 @@ const Footer = () => {
             </footer>
 
 
-            <div className="footer-content" style={{ background: "var(--second-bg-color)", }}>
+            <div className="footer-content">
                 <div className="container">
                     <div className="sub-footer-content">
                         <div className="footer-text">

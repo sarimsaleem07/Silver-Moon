@@ -1,5 +1,5 @@
 .footer {
-    background: #A2D1F2;
+    background: black;
     color: white;
     padding-block: 50px;
 
@@ -159,28 +159,7 @@
     color: #626262;
 }
 
-.footer {
+/* .footer {
     background: var(--primary-color);
     color: var(--text-color);
-}
-
-.footer a {
-    color: var(--link-color);
-}
-
-.footer a:hover {
-    color: var(--hover-color);
-}
-
-.footer-content {
-    background: black;
-    color: var(--text-color);
-}
-
-/* .footer-icons .icon {
-    color: var(--link-color);
 } */
-
-.footer-icons .icon:hover {
-    color: var(--hover-color);
-}

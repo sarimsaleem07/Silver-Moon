@@ -1,12 +1,12 @@
 import React, { useRef, useState, useEffect } from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import CrouselVideo from '../../assets/video2.mp4';
+import CrouselVideo from '../../assets/video1.mp4';
 import './Banner.css';
 
 const Banner = () => {
     const videoRef = useRef(null);
-    const [isMuted, setIsMuted] = useState(true); // State to track mute status
-    const [isPlaying, setIsPlaying] = useState(true); // State to track play/pause status
+    // const [isMuted, setIsMuted] = useState(true); // State to track mute status
+    // const [isPlaying, setIsPlaying] = useState(true); // State to track play/pause status
 
     useEffect(() => {
         const playVideo = () => {
@@ -43,7 +43,7 @@ const Banner = () => {
     return (
         <div className="banner-container">
             <div className="banner-overlay"></div>
-            <video ref={videoRef} className="carousel-video" src={CrouselVideo} autoPlay loop muted={isMuted} />
+            <video ref={videoRef} className="carousel-video" src={CrouselVideo} autoPlay loop />
 
             <div className="banner-text">
                 <h1>Recover Your Outstanding Debts Quickly and Efficiently</h1>
