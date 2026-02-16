@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import CrouselVideo from '../../assets/video2.mp4';
-import './banner.css';
+import './Banner.css';
 
 const Banner = () => {
     const videoRef = useRef(null);

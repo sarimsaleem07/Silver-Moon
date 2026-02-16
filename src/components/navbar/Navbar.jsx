@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FaBars } from 'react-icons/fa';
-import './navbar.css';
+import './Navbar.css';
 import logo from "../../assets/officialLogo.png";
 import { HashLink } from 'react-router-hash-link';
 
