@@ -62,12 +62,12 @@ const Footer = () => {
                 </div>
             </footer>
 
-
+            <hr className='footer-hr' />
             <div className="footer-content">
                 <div className="container">
                     <div className="sub-footer-content">
                         <div className="footer-text">
-                            <p style={{ color: 'var(--text-color)', margin: "0" }} >© {new Date().getFullYear()} Silver Moon. All Rights Reserved.</p>
+                            <p>© {new Date().getFullYear()} Silver Moon. All Rights Reserved.</p>
                         </div>
                         <div className="footer-logo">
                             <img src={Logo} alt="Cave Consulting Logo" />

@@ -139,6 +139,7 @@
 
 .footer-content {
     padding: 10px 0;
+    background-color: black;
 }
 
 .sub-footer-content {
@@ -155,8 +156,18 @@
     text-align: right;
 }
 
+.footer-text p {
+    margin: 0px;
+    color: white;
+}
+
 .link-footer {
     color: #626262;
+}
+
+.footer-hr {
+    margin: 0;
+
 }
 
 /* .footer {

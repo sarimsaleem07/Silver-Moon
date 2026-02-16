@@ -21,11 +21,10 @@ const FAQ = () => {
         <div className='faq-main section-padding' id='faq'>
             <div className='container'>
 
-                <h3 className='sub-heading text-center'>FAQ's</h3>
-                <div className='main-heading text-center'>
-                    <h3>Frequently Asked Questions</h3>
+                <div className="headings-parent">
+                    <h3 className='sub-heading text-center'>FAQ's</h3>
+                    <h1 className='main-heading text-center'>Frequently Asked Questions</h1>
                 </div>
-
                 <div className="faq-container">
                     {faqData.map((item) => (
                         <div className="faq-item" key={item.id} onClick={() => toggleAnswer(item.id)}>

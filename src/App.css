@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #1E3A8A;
+    --primary-color: #78A0C8;
     /* Deep Blue for main footer bg */
-    --secondary-color: #60A5FA;
+    --secondary-color: #8CB4C8;
     /* Light Blue accent */
     --text-color: #F3F4F6;
     /* Soft white / off-white for text */
@@ -13,6 +13,13 @@
     /* Darker footer sub-bg for contrast */
 }
 
+.headings-parent {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .main-heading {
     font-size: 30px;
@@ -28,7 +35,7 @@
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 8px;
-    color: #8CB4C8;
+    color: #78A0C8;
     /* slightly lighter than main heading */
 }
 
@@ -43,19 +50,19 @@
 }
 
 .all-btn {
-    display: inline-block;
     padding: 12px 25px;
     font-size: 16px;
     font-weight: 600;
     color: #fff;
     background: linear-gradient(to bottom right, #8CB4C8, #78A0C8);
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
 
 .all-btn:hover {

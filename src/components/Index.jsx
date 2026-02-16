@@ -4,11 +4,13 @@ const Navbar = lazy(() => import("./navbar/Navbar"));
 const Footer = lazy(() => import("./footer/Footer"))
 const About = lazy(() => import("./about/About"))
 const FAQ = lazy(() => import("./faqs/FAQS"))
+const Contact = lazy(() => import("./contactUs/ContactUs"))
 
 export {
     Navbar,
     Banner,
     About,
     FAQ,
+    Contact,
     Footer,
 }
