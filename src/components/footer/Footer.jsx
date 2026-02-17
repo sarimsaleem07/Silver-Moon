@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../assets/officialLogo.png';
+import footerlogo from '../../assets/footerlogo.png';
 import { FaInstagram, FaLinkedin, FaSquareFacebook, FaSquareWhatsapp } from 'react-icons/fa6';
 import './Footer.css';
 
@@ -70,7 +70,7 @@ const Footer = () => {
                             <p>© {new Date().getFullYear()} Silver Moon. All Rights Reserved.</p>
                         </div>
                         <div className="footer-logo">
-                            <img src={Logo} alt="Cave Consulting Logo" />
+                            <img src={footerlogo} alt="Cave Consulting Logo" />
                         </div>
                     </div>
                 </div>

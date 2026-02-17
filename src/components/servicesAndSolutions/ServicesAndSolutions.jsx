@@ -116,7 +116,7 @@ const ServicesAndSolutions = () => {
             <div className="container">
                 <div className="row g-3">
                     <div className="headings-parent">
-                        <h3 className='sub-heading text-center' style={{ color: "white" }}>Our Services & Solutions</h3>
+                        <h3 className='sub-heading text-center' style={{ color: "var(--heading-color)" }}>Our Services & Solutions</h3>
                         <h1 className='main-heading text-center'>Helping businesses tackle challenges, recover payments, and grow.</h1>
                     </div>
                     {cardData.map((card, index) => (

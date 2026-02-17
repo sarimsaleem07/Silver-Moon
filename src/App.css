@@ -8,7 +8,11 @@
     --white: white;
     --black: black;
     --btn-color: linear-gradient(to bottom right, #8CB4C8, #78A0C8);
-    --font-montserrat: "Montserrat"
+    --font-montserrat: "Montserrat";
+    --background-color: linear-gradient(135deg, #f2f4f8 0%, #B0D0E2 70%, #A0C0D8 80%);
+    --background-color-gradient: linear-gradient(to top left, #E3EFF8 0%, #F1F7FC 45%, #ffffff 80%);
+    /* background: linear-gradient(135deg, #F1F7FC 0%, #E3EFF8 100%); */
+
 }
 
 .headings-parent {
@@ -67,5 +71,5 @@
 }
 
 .section-padding {
-    padding-block: 50px;
+    padding-block: 70px;
 }

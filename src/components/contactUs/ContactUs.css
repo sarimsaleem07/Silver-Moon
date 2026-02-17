@@ -1,5 +1,5 @@
 .contact-us-form {
-    /* background: var(--btn-color); */
+    background: var(--background-color);
 }
 
 .contact-us-form-container {
@@ -14,7 +14,7 @@
 .email>input {
     margin: 0 0 12px 0;
     background-color: var(--white);
-    border: 1px solid #78A0C8;
+    border: 1px solid var(--primary-color);
     border-radius: 8px;
     height: 57px;
     color: var(--white);
@@ -30,7 +30,7 @@
     color: var(--white);
     display: flex;
     padding: 25px 25px 25px 15px;
-    border: 1px solid #78A0C8;
+    border: 1px solid var(--primary-color);
     border-radius: 8px;
     resize: none;
 }

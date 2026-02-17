@@ -7,8 +7,8 @@ const Home = () => {
             <Banner />
             <About />
             <WhoAreWe />
-            <FAQ />
             <ServicesAndSolutions />
+            <FAQ />
             <Testimonials />
             <Contact />
         </>

@@ -47,14 +47,16 @@ const Testimonials = () => {
     };
 
     return (
-        <div className="container">
-            <div className='testimonials section-padding'>
-                <div className="headings-parent">
-                    <h3 className='sub-heading text-center'>Testimonials</h3>
-                    <h1 className='main-heading text-center' style={{ width: "60%" }}>Our Clients Reviews</h1>
+        <div className="testimonials">
+            <div className="container">
+                <div className='testimonials section-padding'>
+                    <div className="headings-parent">
+                        <h3 className='sub-heading text-center'>Testimonials</h3>
+                        <h1 className='main-heading text-center' style={{ width: "60%" }}>Our Clients Reviews</h1>
+                    </div>
+                    {renderSlider(topData, "ltr")}
+                    {renderSlider(bottomData, "rtl")}
                 </div>
-                {renderSlider(topData, "ltr")}
-                {renderSlider(bottomData, "rtl")}
             </div>
         </div>
     );
