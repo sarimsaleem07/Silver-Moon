@@ -42,7 +42,7 @@ function Header() {
                                 <HashLink className="nav-link" smooth to="/#faq">FAQ</HashLink>
                             </li>
                             <li className="nav-item">
-                                <HashLink className="nav-link" smooth to="/#contact-me">Contact</HashLink>
+                                <HashLink className="nav-link" smooth to="/#contact">Contact</HashLink>
                             </li>
                         </ul>
                         {/* <div className="navbar-icons">

@@ -39,10 +39,11 @@ const Footer = () => {
                                 <h4 className='footer-heading'>Menu</h4>
                                 <ul className='list' style={{ listStyle: "none", padding: "0" }}>
                                     <li><a className='footer-data' href="/#home"> Home </a></li>
+                                    <li><a className='footer-data' href="/#about">About</a></li>
                                     <li><a className='footer-data' href="/#services">My Services</a></li>
-                                    <li><a className='footer-data' href="/#about-me">About Us</a></li>
+                                    <li><a className='footer-data' href="/#whoAreWe">Who Are We</a></li>
                                     <li><a className='footer-data' href="/#faq">FAQ</a></li>
-                                    <li><a className='footer-data' href="/#contact-me">Contact Me</a></li>
+                                    <li><a className='footer-data' href="/#contact">Contact</a></li>
                                 </ul>
                             </div>
                         </div>

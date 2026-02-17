@@ -52,7 +52,7 @@ function Contact() {
     };
 
     return (
-        <div className="contact-us-form section-padding" id="contact-me">
+        <div className="contact-us-form section-padding" id="contact">
             <div className="container">
                 <div className="headings-parent">
                     <h3 className='sub-heading text-center'>Get In Touch With Me</h3>
