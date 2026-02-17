@@ -55,8 +55,8 @@ function Contact() {
         <div className="contact-us-form section-padding" id="contact">
             <div className="container">
                 <div className="headings-parent">
-                    <h3 className='sub-heading text-center' style={{ color: "var(--heading-color)" }}>Get In Touch With Me</h3>
-                    <h1 className='main-heading text-center' style={{ width: "60%" }}>Fill the form below so we can get to know you and your needs better.</h1>
+                    <h3 className='sub-heading text-center'>Get In Touch With Me</h3>
+                    <h1 className='main-heading text-center width60'>Fill the form below so we can get to know you and your needs better.</h1>
                 </div>
                 <div className="contact-us-form-container">
                     <div className="row align-items-center justify-content-center">

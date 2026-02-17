@@ -88,39 +88,14 @@
 
 @media (max-width: 767px) {
 
-    .faq-heading h1 {
-        font-size: 23px;
-    }
-
     .answer {
         padding: 0 0px 12px 0px;
         font-size: 12px;
         color: var(--second-bg-color);
     }
 
-    .disclaimer {
-        padding-inline: 0;
-    }
-
-    .disclaimer p {
-        font-size: 13px;
-    }
-
-    .page-shade-faq {
-        top: 760px;
-    }
-
-    .star-page-faq {
-        bottom: -50px;
-    }
-
-    .page-shade-faq img {
-        width: 50px;
-        height: auto;
-    }
-
     .question {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     hr {
