@@ -68,9 +68,9 @@ const FAQ = () => {
                                     <h3 className="m-0">{activeIndex === item.id ? '-' : '+'}</h3>
                                 </div>
                             </div>
-                            {activeIndex === item.id && (
-                                <div className="answer" dangerouslySetInnerHTML={{ __html: item.answer }}></div>
-                            )}
+                            <div className={`answer ${activeIndex === item.id ? 'open' : ''}`}>
+                                {item.answer}
+                            </div>
                             <hr className='faqs-hr' />
                         </div>
                     ))}

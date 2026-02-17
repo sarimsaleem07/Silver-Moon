@@ -7,14 +7,9 @@
     background: var(--background-color-gradient);
 }
 
-/* .slider {
-    overflow: hidden;
-} */
-
 .slider {
     overflow: hidden;
     position: relative;
-    /* Create left and right fade edges */
     -webkit-mask-image: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: 100% 100%;

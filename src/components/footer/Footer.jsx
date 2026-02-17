@@ -10,6 +10,20 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
 
+                        <div className="col-sm-12 col-md-6 col-lg-2">
+                            <div className="footer-section">
+                                <h4 className='footer-heading'>Menu</h4>
+                                <ul className='list' style={{ listStyle: "none", padding: "0" }}>
+                                    <li><a className='footer-data' href="/#home"> Home </a></li>
+                                    <li><a className='footer-data' href="/#about">About</a></li>
+                                    <li><a className='footer-data' href="/#services">My Services</a></li>
+                                    <li><a className='footer-data' href="/#whoAreWe">Who Are We</a></li>
+                                    <li><a className='footer-data' href="/#faq">FAQ</a></li>
+                                    <li><a className='footer-data' href="/#contact">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
                         <div className="col-sm-12 col-md-6 col-lg-4">
                             <div className="footer-section">
                                 <h4 className='footer-headings' >Contact Us</h4>
@@ -34,19 +48,6 @@ const Footer = () => {
                             />
                         </div>
 
-                        <div className="col-sm-12 col-md-6 col-lg-2">
-                            <div className="footer-section">
-                                <h4 className='footer-heading'>Menu</h4>
-                                <ul className='list' style={{ listStyle: "none", padding: "0" }}>
-                                    <li><a className='footer-data' href="/#home"> Home </a></li>
-                                    <li><a className='footer-data' href="/#about">About</a></li>
-                                    <li><a className='footer-data' href="/#services">My Services</a></li>
-                                    <li><a className='footer-data' href="/#whoAreWe">Who Are We</a></li>
-                                    <li><a className='footer-data' href="/#faq">FAQ</a></li>
-                                    <li><a className='footer-data' href="/#contact">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
                         <div className="col-sm-12 col-md-6 col-lg-2">
                             <div className="footer-section">
                                 <h4 className='footer-heading'>Follow Us</h4>
