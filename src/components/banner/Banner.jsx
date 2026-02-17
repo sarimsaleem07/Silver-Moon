@@ -43,7 +43,7 @@ const Banner = () => {
     return (
         <div className="banner-container">
             <div className="banner-overlay"></div>
-            <video ref={videoRef} className="carousel-video" src={CrouselVideo} autoPlay loop />
+            <video ref={videoRef} className="carousel-video" src={CrouselVideo} autoPlay loop muted playsInline preload="metadata" />
 
             <div className="banner-text">
                 <h1>Recover Your Outstanding Debts Quickly and Efficiently</h1>
