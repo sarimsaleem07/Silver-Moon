@@ -1,63 +1,31 @@
-import React, { useRef, useState, useEffect } from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import CrouselVideo from '../../assets/video1.mp4';
 import './Banner.css';
 
 const Banner = () => {
-    const videoRef = useRef(null);
-    // const [isMuted, setIsMuted] = useState(true); // State to track mute status
-    // const [isPlaying, setIsPlaying] = useState(true); // State to track play/pause status
-
-    useEffect(() => {
-        const playVideo = () => {
-            if (videoRef.current) {
-                videoRef.current.play().catch(error => console.log('Autoplay blocked:', error));
-            }
-        };
-
-        document.addEventListener('click', playVideo, { once: true });
-
-        return () => document.removeEventListener('click', playVideo);
-    }, []);
-
-    // Function to toggle sound
-    // const toggleSound = () => {
-    //     if (videoRef.current) {
-    //         videoRef.current.muted = !isMuted;
-    //         setIsMuted(!isMuted);
-    //     }
-    // };
-
-    // // Function to play/pause video
-    // const togglePlayPause = () => {
-    //     if (videoRef.current) {
-    //         if (isPlaying) {
-    //             videoRef.current.pause();
-    //         } else {
-    //             videoRef.current.play();
-    //         }
-    //         setIsPlaying(!isPlaying);
-    //     }
-    // };
-
     return (
-        <div className="banner-container">
-            <div className="banner-overlay"></div>
-            <video ref={videoRef} className="carousel-video" src={CrouselVideo} autoPlay loop muted playsInline preload="metadata" />
-
-            <div className="banner-text">
-                <h1>Recover Your Outstanding Debts Quickly and Efficiently</h1>
-                <p>Take full control of your receivables with our proven debt collection strategies. Our expert approach helps you minimize financial losses, recover outstanding debts efficiently, and maximize returns while maintaining positive client relationships.</p>
+        <div className="banner-wrapper">
+            <div className="hero-overlay"></div>
+            <div className="container">
+                {/* Custom inner wrapper, no Bootstrap touched */}
+                <div className="hero-inner">
+                    <div className="hero-heading">
+                        <h1>Quick and effective debt recovery solutions</h1>
+                    </div>
+                    <div className="hero-content">
+                        <div className="">
+                            <h4>No Collection • No Fee</h4>
+                            <h4>20% Commission • No Upfront Charges</h4>
+                            <p>Silver Moon Debt Collection is a Dubai-based debt recovery service helping businesses recover unpaid invoices quickly and professionally.</p>
+                            <ul>
+                                <li>Multilingual Agents: English • Arabic • Urdu</li>
+                                <li>Professional & Discreet: Protect your reputation while we follow up</li>
+                                <li>Transparent Pricing: Fixed 20% commission, only on successful recovery</li>
+                            </ul>
+                            <button className='banner-btn'>ENQUIRE NOW</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            {/* <div className="video-controls">
-                <button className="control-btn" onClick={togglePlayPause}>
-                    {isPlaying ? '⏸' : '▶'}
-                </button>
-                <button className="control-btn" onClick={toggleSound}>
-                    {isMuted ? '🔇' : '🔊'}
-                </button>
-            </div> */}
         </div>
     );
 };
