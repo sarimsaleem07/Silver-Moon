@@ -10,11 +10,7 @@ const About = () => {
         <div className="about section-padding" id='about'>
             <div className="container">
                 <div className="row">
-                    <div className="col-sm-12 col-md-6 col-lg-6">
-                        <div className="about-image-parent">
-                            <img src={aboutImage} alt="" />
-                        </div>
-                    </div>
+
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className="about-data-parent">
                             <h3 className='sub-heading'>About</h3>
@@ -24,11 +20,15 @@ const About = () => {
                                 Our team works closely with you to recover outstanding payments efficiently and fairly.
                                 Trust us to handle your receivables with care, professionalism, and integrity.,
                             </p>
-                            <button className="all-btn" onClick={() => navigate("/contact")}>
+                            <button className="all-btn">
                                 BOOK A FREE CONSULTATION'
                             </button>
                         </div>
-
+                    </div>
+                    <div className="col-sm-12 col-md-6 col-lg-6">
+                        <div className="about-image-parent">
+                            <img src={aboutImage} alt="" />
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { About, Banner, Contact, FAQ, ServicesAndSolutions, Testimonials, WhoAreWe } from '../../components/Index'
+import { About, Banner, Contact, FAQ, ServicesAndSolutions, Testimonials, WhoAreWe, WhyChooseUs } from '../../components/Index'
 
 const Home = () => {
     return (
@@ -7,6 +7,7 @@ const Home = () => {
             <Banner />
             <About />
             <WhoAreWe />
+            <WhyChooseUs />
             <ServicesAndSolutions />
             <FAQ />
             <Testimonials />

@@ -8,12 +8,14 @@ const Contact = lazy(() => import("./contactUs/ContactUs"))
 const Testimonials = lazy(() => import("./testimonials/Testimonials"))
 const ServicesAndSolutions = lazy(() => import("./servicesAndSolutions/ServicesAndSolutions"))
 const WhoAreWe = lazy(() => import("./whoAreWe/WhoAreWe"))
+const WhyChooseUs = lazy(() => import("./whyChooseUs/WhyChooseUs"))
 
 export {
     Navbar,
     Banner,
     About,
     WhoAreWe,
+    WhyChooseUs,
     FAQ,
     ServicesAndSolutions,
     Contact,

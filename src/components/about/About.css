@@ -6,12 +6,20 @@
 }
 
 .about-image-parent {
-    width: 90%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
 }
 
 .about-image-parent img {
-    width: 100%;
+    width: 90%;
     border-radius: 8px;
+    transition: transform 0.5s ease;
+}
+
+.about-image-parent:hover img {
+    transform: scale(1.05);
 }
 
 @media (max-width:767px) {

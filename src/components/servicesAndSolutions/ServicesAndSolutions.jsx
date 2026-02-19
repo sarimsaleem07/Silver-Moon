@@ -1,6 +1,13 @@
 import React from "react";
 import "./ServicesAndSolutions.css";
-import about from "../../assets/about.jpg"
+import challenge from "../../assets/challenge.jpg"
+import solution from "../../assets/solution.jpg"
+import advantage from "../../assets/competitiveAdvantage.jpg"
+import targetClients from "../../assets/targetClients.jpg"
+import marketStrategy from "../../assets/marketStrategy.jpg"
+import revenueModel from "../../assets/revenueModel.jpg"
+import vision from "../../assets/vision.jpg"
+
 const ServicesAndSolutions = () => {
     const cardData = [
         {
@@ -11,7 +18,7 @@ const ServicesAndSolutions = () => {
                 "High-risk sectors: Construction, Real Estate, Trading.",
                 "Legal recovery is costly and slow; many businesses lack structured processes."
             ],
-            image: about,
+            image: challenge,
         },
         {
             title: "Our Solution",
@@ -22,7 +29,7 @@ const ServicesAndSolutions = () => {
                 "Skip Tracing: Locate debtors anywhere in UAE.",
                 "Case Tracking: Transparent progress updates."
             ],
-            image: "https://source.unsplash.com/300x300/?teamwork,office",
+            image: solution,
         },
         {
             title: "Competitive Advantage",
@@ -32,7 +39,7 @@ const ServicesAndSolutions = () => {
                 "Transparent Pricing: 20% commission on recovered amount only.",
                 "Performance-Based: No recovery = no fee."
             ],
-            image: "https://source.unsplash.com/300x300/?success,achievement",
+            image: advantage,
         },
         {
             title: "Target Clients",
@@ -42,7 +49,7 @@ const ServicesAndSolutions = () => {
                 "Banks, Fintech & Telecom",
                 "Trading businesses & Medical providers"
             ],
-            image: "https://source.unsplash.com/300x300/?business,clients",
+            image: targetClients,
         },
         {
             title: "Go-To-Market Strategy",
@@ -51,7 +58,7 @@ const ServicesAndSolutions = () => {
                 "Phase 1: Dubai SMEs – direct outreach & referrals",
                 "Phase 2: Corporate expansion & legal firm collaborations"
             ],
-            image: "https://source.unsplash.com/300x300/?marketing,strategy",
+            image: marketStrategy,
         },
         {
             title: "Revenue Model",
@@ -61,7 +68,7 @@ const ServicesAndSolutions = () => {
                 "AED 1M recovered → AED 200K revenue",
                 "AED 5M recovered → AED 1M revenue"
             ],
-            image: "https://source.unsplash.com/300x300/?money,revenue",
+            image: revenueModel,
         },
         {
             title: "Vision",
@@ -71,7 +78,7 @@ const ServicesAndSolutions = () => {
                 "Near Future: Expand to Abu Dhabi & Sharjah",
                 "Long-Term: Regional growth across GCC"
             ],
-            image: "https://source.unsplash.com/300x300/?growth,success",
+            image: vision,
         },
     ];
 
@@ -114,7 +121,7 @@ const ServicesAndSolutions = () => {
     return (
         <div className="card-container section-padding" id="services">
             <div className="container">
-                <div className="row g-3">
+                <div className="row g-3" style={{ justifyContent: "center" }}>
                     <div className="headings-parent">
                         <h3 className='sub-heading text-center'>Our Services & Solutions</h3>
                         <h1 className='main-heading text-center'>Helping businesses tackle challenges, recover payments, and grow.</h1>
