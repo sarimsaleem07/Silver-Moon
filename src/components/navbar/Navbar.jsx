@@ -45,9 +45,6 @@ function Header() {
                                 <HashLink className="nav-link" smooth to="/#contact">Contact</HashLink>
                             </li>
                         </ul>
-                        {/* <div className="navbar-icons">
-                            <button className="book-free-counsultaion-btn"> <a href="/#contact-me"> Book Free Consultation </a></button>
-                        </div> */}
                     </div>
                 </div>
             </nav>

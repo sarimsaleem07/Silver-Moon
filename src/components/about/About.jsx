@@ -1,10 +1,9 @@
 import React from 'react';
 import './About.css';
-import { useNavigate } from 'react-router-dom';
 import aboutImage from "../../assets/about.jpg"
-const About = () => {
+import { HashLink } from 'react-router-hash-link';
 
-    const navigate = useNavigate()
+const About = () => {
 
     return (
         <div className="about section-padding" id='about'>
@@ -20,14 +19,16 @@ const About = () => {
                                 Our team works closely with you to recover outstanding payments efficiently and fairly.
                                 Trust us to handle your receivables with care, professionalism, and integrity.,
                             </p>
-                            <button className="all-btn">
-                                BOOK A FREE CONSULTATION'
-                            </button>
+                            <HashLink smooth to="/#contact">
+                                <button className="all-btn">
+                                    BOOK A FREE CONSULTATION'
+                                </button>
+                            </HashLink>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className="about-image-parent">
-                            <img src={aboutImage} alt="" />
+                            <img src={aboutImage} alt="About Us" />
                         </div>
                     </div>
                 </div>

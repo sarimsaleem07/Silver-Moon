@@ -28,7 +28,8 @@ function Contact() {
         formDataToSend.append("email", formData.email);
         formDataToSend.append("message", formData.message);
 
-        const response = await fetch("https://cavecounselling.com/send-email.php", {
+        // const response = await fetch("https://cavecounselling.com/send-email.php", {
+        const response = await fetch("/send-email.php", {
             method: "POST",
             body: formDataToSend,
         });
@@ -48,7 +49,6 @@ function Contact() {
             message.error("Failed to send email.");
         }
         setLoading(false)
-
     };
 
     return (
