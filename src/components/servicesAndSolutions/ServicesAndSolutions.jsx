@@ -6,7 +6,7 @@ import advantage from "../../assets/competitiveAdvantage.jpg"
 import targetClients from "../../assets/targetClients.jpg"
 import marketStrategy from "../../assets/marketStrategy.jpg"
 import revenueModel from "../../assets/revenueModel.jpg"
-import vision from "../../assets/vision.jpg"
+import vision from "../../assets/Vision.jpg"
 
 const ServicesAndSolutions = () => {
     const cardData = [
