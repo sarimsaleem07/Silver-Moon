@@ -74,6 +74,10 @@
     .whoAreWe-description {
         font-size: 14px;
     }
+
+    .whoAreWe-image-parent img {
+        width: 100%;
+    }
 }
 
 @media (min-width:557px) and (max-width:991px) {
@@ -87,6 +91,7 @@
     .whoAreWe-data-parent {
         padding-right: 0;
         padding-bottom: 30px;
+        margin-top: 30px;
     }
 
     .whoAreWe-description li {

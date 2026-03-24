@@ -1,6 +1,6 @@
 import React from 'react'
 import "./WhoAreWe.css"
-import whoAreWe from "../../assets/whoarewe.jpg"
+import whoAreWe from "../../assets/whoarewe.svg"
 
 const WhoAreWe = () => {
 

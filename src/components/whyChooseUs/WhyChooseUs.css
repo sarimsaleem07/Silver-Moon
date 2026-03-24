@@ -105,6 +105,11 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+
+    .whyChooseUs-image-parent img {
+        width: 100%;
+    }
+
     .whyChooseUs-description li {
         font-size: 14px;
     }

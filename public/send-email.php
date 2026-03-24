@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <!-- Header -->
         <div style='padding: 30px 30px 15px 30px; border-bottom: 0.75px solid #f5f5dc; background-color: #f5f5dc;'>
            <div>
-               <img src='https://cavecounselling.com/favicon.png' alt='Cave Counselling' width='253.81' height='64.3' draggable='false'>
+               <img src='https://silvermoons.com/favicon.svg' alt='Silver Moon' width='253.81' height='64.3' draggable='false'>
            </div>
         </div>
 

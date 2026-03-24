@@ -25,6 +25,11 @@
 @media (max-width:767px) {
     .about-image-parent {
         width: 100%;
+        margin-top: 30px;
+    }
+
+    .about-image-parent img {
+        width: 100%;
     }
 
     .about-data-parent {

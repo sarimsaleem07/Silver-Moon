@@ -1,12 +1,12 @@
 import React from "react";
 import "./ServicesAndSolutions.css";
-import challenge from "../../assets/challenge.jpg"
-import solution from "../../assets/solution.jpg"
-import advantage from "../../assets/competitiveAdvantage.jpg"
-import targetClients from "../../assets/targetClients.jpg"
-import marketStrategy from "../../assets/marketStrategy.jpg"
-import revenueModel from "../../assets/revenueModel.jpg"
-import vision from "../../assets/Vision.jpg"
+import challenge from "../../assets/challenge.svg"
+import solution from "../../assets/solution.svg"
+import advantage from "../../assets/competitiveAdvantage.svg"
+import targetClients from "../../assets/targetClients.svg"
+import marketStrategy from "../../assets/marketStrategy.svg"
+import revenueModel from "../../assets/revenueModel.svg"
+import vision from "../../assets/Vision.svg"
 
 const ServicesAndSolutions = () => {
     const cardData = [

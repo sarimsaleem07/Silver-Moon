@@ -61,12 +61,7 @@ function Contact() {
                 <div className="contact-us-form-container">
                     <div className="row align-items-center justify-content-center">
                         <div className="col-md-12 col-sm-12 col-xl-8 col-lg-8">
-                            <form
-                                // id="contactForm"
-                                // action="https://formsubmit.co/sarimsaleem07@gmail.com"
-                                // method="POST"
-                                onSubmit={sendEmail}
-                            >
+                            <form onSubmit={sendEmail}>
                                 <div className="col-md-12">
                                     <div className="row">
                                         <div className="fst-lst col-md-6 col-12">
