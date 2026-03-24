@@ -17,7 +17,7 @@
     border: 1px solid var(--primary-color);
     border-radius: 8px;
     height: 57px;
-    color: var(--white);
+    color: var(--black);
 }
 
 .fst-lst>input:focus,
@@ -27,7 +27,7 @@
 }
 
 .text-section>textarea {
-    color: var(--white);
+    color: var(--black);
     display: flex;
     padding: 25px 25px 25px 15px;
     border: 1px solid var(--primary-color);
