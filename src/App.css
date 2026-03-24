@@ -85,12 +85,12 @@
     }
 
     .main-heading {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 1.6;
     }
 
     .sub-heading {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .description {
@@ -101,6 +101,10 @@
     .width60 {
         width: 90% !important;
     }
+
+    .all-btn {
+        font-size: 14px;
+    }
 }
 
 @media (min-width:768px) and (max-width:991px) {
@@ -109,17 +113,17 @@
     }
 
     .main-heading {
-        font-size: 24px;
+        font-size: 20px;
         line-height: 1.4;
     }
 
     .sub-heading {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .description {
         margin-bottom: 12px;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .width60 {

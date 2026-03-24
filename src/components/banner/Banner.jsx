@@ -1,5 +1,6 @@
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './Banner.css';
+import { HashLink } from 'react-router-hash-link';
 
 const Banner = () => {
     return (
@@ -21,7 +22,9 @@ const Banner = () => {
                                 <li>Professional & Discreet: Protect your reputation while we follow up</li>
                                 <li>Transparent Pricing: Fixed 20% commission, only on successful recovery</li>
                             </ul>
-                            <button className='banner-btn'>ENQUIRE NOW</button>
+                            <HashLink smooth to="/#contact">
+                                <button className='banner-btn'>ENQUIRE NOW</button>
+                            </HashLink>
                         </div>
                     </div>
                 </div>

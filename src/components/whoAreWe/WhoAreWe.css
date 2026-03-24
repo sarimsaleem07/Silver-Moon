@@ -2,6 +2,12 @@
     background: var(--background-color-gradient);
 }
 
+.whoAreWeContainer {
+    display: flex;
+
+}
+
+
 .whoAreWe-data-parent {
     display: flex;
     flex-direction: column;
@@ -66,7 +72,13 @@
     animation-fill-mode: forwards;
 }
 
-@media (max-width:556px) {
+@media (max-width: 767px) {
+
+    .whoAreWeContainer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     .whoAreWe-heading {
         font-size: 20px;
     }
@@ -75,23 +87,9 @@
         font-size: 14px;
     }
 
-    .whoAreWe-image-parent img {
-        width: 100%;
-    }
-}
-
-@media (min-width:557px) and (max-width:991px) {
-    .whoAreWe-heading {
-        font-size: 28px;
-    }
-}
-
-@media (max-width: 768px) {
-
     .whoAreWe-data-parent {
         padding-right: 0;
         padding-bottom: 30px;
-        margin-top: 30px;
     }
 
     .whoAreWe-description li {
@@ -105,7 +103,28 @@
     .whoAreWe-image-parent {
         width: 100%;
     }
+
+    .whoAreWe-image-parent img {
+        width: 100%;
+    }
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .whoAreWe-image-parent {
+        height: 100%;
+    }
+
+    .whoAreWe-image-parent img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .whoAreWe-description li {
+        font-size: 14px;
+    }
+}
+
 
 @keyframes fadeInUp {
     from {
