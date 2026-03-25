@@ -1,4 +1,5 @@
 import nodemailer from "nodemailer";
+import { getEmailTemplate, getPlainTextTemplate } from "./emailTemplate";
 
 export default async function handler(req, res) {
     if (req.method !== "POST") {
@@ -11,20 +12,22 @@ export default async function handler(req, res) {
         const transporter = nodemailer.createTransport({
             service: "gmail",
             auth: {
-                user: "sarimsaleem07",
-                pass: "alug glvo orna ovpb", // gmail app password
+                user: "sarimsaleem07@gmail.com",
+                pass: "alug glvo orna ovpb",
             },
         });
 
         await transporter.sendMail({
-            from: email,
+            from: `"${firstName} ${lastName}" <${email}>`,
             to: "sarimsaleem07@gmail.com",
             subject: subject,
-            html: `<p>${firstName} ${lastName}</p><p>${message}</p>`,
+            html: getEmailTemplate(firstName, lastName, email, subject, message),
+            text: getPlainTextTemplate(firstName, lastName, email, subject, message),
         });
 
         res.status(200).json({ message: "Email sent successfully" });
     } catch (error) {
-        res.status(500).json({ message: "Error sending email", error });
+        console.error("Error sending email:", error);
+        res.status(500).json({ message: "Error sending email", error: error.message });
     }
 }
