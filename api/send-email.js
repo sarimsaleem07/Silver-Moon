@@ -1,6 +1,5 @@
 import nodemailer from "nodemailer";
 import { getEmailTemplate, getPlainTextTemplate } from "../template/EmailTemplate";
-// import { getEmailTemplate, getPlainTextTemplate } from "./emailTemplate";
 
 export default async function handler(req, res) {
     if (req.method !== "POST") {
