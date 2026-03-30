@@ -454,7 +454,7 @@ export default async function handler(req, res) {
         await transporter.sendMail({
             from: `"${firstName} ${lastName}" <${email}>`,
             to: "sarimsaleem07@gmail.com",
-            subject: `📬 ${subject}`,
+            subject: `📬 Contact Form: ${subject}`,
             html: getEmailTemplate(firstName, lastName, email, subject, message),
             text: getPlainTextTemplate(firstName, lastName, email, subject, message),
         });

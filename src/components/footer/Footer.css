@@ -68,6 +68,11 @@
 
 
 @media (max-width: 650px) {
+
+    .footer-icons {
+        padding-block: 0px;
+    }
+
     .footer-links {
         gap: 5px;
     }

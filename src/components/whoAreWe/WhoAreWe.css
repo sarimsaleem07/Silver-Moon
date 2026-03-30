@@ -26,16 +26,18 @@
     width: 90%;
     border-radius: 8px;
     transition: transform 0.5s ease;
+
 }
 
 .whoAreWe-image-parent:hover img {
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
 
 
 .whoAreWe-description {
     padding-left: 0px;
     padding-top: 20px;
+    margin-bottom: 0;
 }
 
 .whoAreWe-description li {
@@ -85,6 +87,7 @@
 
     .whoAreWe-description {
         font-size: 14px;
+        padding-top: 0px;
     }
 
     .whoAreWe-data-parent {
@@ -93,11 +96,7 @@
     }
 
     .whoAreWe-description li {
-        font-size: 14px;
-    }
-
-    .whoAreWe-description {
-        padding-top: 8px;
+        font-size: 16px;
     }
 
     .whoAreWe-image-parent {
@@ -121,7 +120,7 @@
     }
 
     .whoAreWe-description li {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 

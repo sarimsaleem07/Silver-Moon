@@ -15,6 +15,7 @@
 .whyChooseUs-description {
     padding-left: 0;
     padding-top: 20px;
+    margin-bottom: 0;
 }
 
 .whyChooseUs-description li {
@@ -43,8 +44,6 @@
 }
 
 .whyChooseUs {
-    /* position: relative;
-    overflow: hidden; */
     background: var(--background-color-gradient);
 }
 
@@ -54,36 +53,6 @@
     justify-content: center;
     height: 100%;
     animation: fadeInUp 0.8s ease forwards;
-}
-
-.whyChooseUs-description {
-    padding-left: 0;
-    padding-top: 20px;
-}
-
-.whyChooseUs-description li {
-    position: relative;
-    margin-bottom: 15px;
-    list-style: none;
-    font-size: 18px;
-    line-height: 1.8;
-    padding-left: 30px;
-    color: var(--text-color);
-    font-family: var(--font-montserrat);
-    transition: transform 0.3s ease;
-}
-
-.whyChooseUs-description li:hover {
-    transform: translateX(5px);
-}
-
-.whyChooseUs-description li::before {
-    content: '→';
-    position: absolute;
-    left: 0;
-    color: var(--primary-color);
-    font-weight: bold;
-    font-size: 20px;
 }
 
 .whyChooseUs-image-parent {
@@ -120,12 +89,16 @@
 /* Responsive */
 @media (max-width: 768px) {
 
+    .whyChooseUs-description {
+        padding-top: 0;
+    }
+
     .whyChooseUs-image-parent img {
         width: 100%;
     }
 
     .whyChooseUs-description li {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .whyChooseUs-data-parent {
@@ -137,7 +110,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
     .whyChooseUs-description li {
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 8px;
     }
 

@@ -43,9 +43,19 @@
 @media (max-width: 767px) {
     .contact-btn>button {
         padding: 15px 25px;
-        font-size: 18px;
+        font-size: 14px;
         background-color: var(--btn-color);
         color: aliceblue;
         border: none;
+    }
+
+
+    .fst-lst>input,
+    .email>input {
+        height: 45px;
+    }
+
+    .text-section>textarea {
+        height: 180px;
     }
 }

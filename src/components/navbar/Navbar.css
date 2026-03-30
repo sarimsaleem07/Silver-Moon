@@ -28,7 +28,6 @@
 
 .navbar-nav .nav-item {
     margin-right: 12px;
-    display: flex;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -60,11 +59,23 @@
     .sub-header-main {
         padding-top: 98px;
     }
+
+    .navbar-toggler {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 576px) {
     .nav-upper-text {
         padding-inline: 10px;
+    }
+
+    .navbar-toggler {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -72,6 +83,12 @@
 
     .sub-header-main {
         padding-top: 100px;
+    }
+
+    .navbar-toggler {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }
@@ -146,8 +163,6 @@
 
     .navbar-collapse {
         backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(20px);
-        box-shadow: 0 0 10px rgba(186, 198, 176, 0.1);
         padding: 10px 0px 20px;
     }
 

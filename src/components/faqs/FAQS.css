@@ -98,13 +98,17 @@
 @media (max-width: 767px) {
 
     .answer {
-        padding: 0 0px 12px 0px;
-        font-size: 12px;
+        padding: 0;
+        font-size: 15px;
         color: var(--second-bg-color);
     }
 
+    .answer.open {
+        margin-bottom: 16px;
+    }
+
     .question {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     hr {
