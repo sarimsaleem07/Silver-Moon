@@ -25,13 +25,8 @@
 .whoAreWe-image-parent img {
     width: 90%;
     border-radius: 8px;
-    transition: transform 0.5s ease;
-
 }
 
-.whoAreWe-image-parent:hover img {
-    transform: scale(1.1);
-}
 
 
 .whoAreWe-description {
