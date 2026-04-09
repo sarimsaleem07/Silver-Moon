@@ -31,7 +31,7 @@ const Footer = () => {
                                 <p><a href="https://www.google.com/maps?q=24.998091,55.170963" target='blank' className='footer-subheading'>Arjumand Building Suite 493 Green Community Village - Dubai Investment Park First - Dubai</a></p>
 
                                 <h6 className='footer-subheading'>Phone Number</h6>
-                                <p><a href="tel:+07777966289" className='footer-subheading' >T: 9999 999 999</a></p>
+                                <p><a href="tel:+0542778677" className='footer-subheading' >T: 0542778677</a></p>
                                 <h6 className='footer-subheading' >Email Address</h6>
                                 <p><a href="mailto:Info@silvermoondebtcollection.com" className='footer-subheading'>Info@silvermoondebtcollection.com</a></p>
                             </div>
